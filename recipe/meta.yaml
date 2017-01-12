@@ -1,38 +1,39 @@
 {% set version = "0.0.5" %}
 
 package:
-    name: mplleaflet
-    version: {{ version }}
+  name: mplleaflet
+  version: {{ version }}
 
 source:
-    fn: mplleaflet-{{ version }}.tar.gz
-    url: https://pypi.io/packages/source/m/mplleaflet/mplleaflet-{{ version }}.tar.gz
-    sha256: 049e0b91797ce5b462853395138161fed9e8dfc1f4723f482ebb0739a0bbd289
+  fn: mplleaflet-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/m/mplleaflet/mplleaflet-{{ version }}.tar.gz
+  sha256: 049e0b91797ce5b462853395138161fed9e8dfc1f4723f482ebb0739a0bbd289
 
 build:
-    number: 1
-    script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 1
+  script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
-    build:
-        - python
-        - setuptools
-    run:
-        - python
-        - jinja2
-        - six
-        - matplotlib
+  build:
+    - python
+    - setuptools
+  run:
+    - python
+    - jinja2
+    - six
+    - matplotlib
 
 test:
-    imports:
-        - mplleaflet
+  imports:
+    - mplleaflet
 
 about:
-    home: https://github.com/jwass/mplleaflet
-    license: BSD 3-Clause
-    summary: 'Convert Matplotlib plots into Leaflet web maps.'
+  home: https://github.com/jwass/mplleaflet
+  license: BSD 3-Clause
+  license_file: LICENSE.md
+  summary: 'Convert Matplotlib plots into Leaflet web maps.'
 
 extra:
-    recipe-maintainers:
-        - jwass
-        - ocefpaf
+  recipe-maintainers:
+    - jwass
+    - ocefpaf

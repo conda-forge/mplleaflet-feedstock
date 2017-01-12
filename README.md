@@ -11,6 +11,18 @@ Summary: Convert Matplotlib plots into Leaflet web maps.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/mplleaflet-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/mplleaflet-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/mplleaflet-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/mplleaflet-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/mplleaflet-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/mplleaflet-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mplleaflet/badges/version.svg)](https://anaconda.org/conda-forge/mplleaflet)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mplleaflet/badges/downloads.svg)](https://anaconda.org/conda-forge/mplleaflet)
+
 Installing mplleaflet
 =====================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `mplleaflet` available on your pla
 ```
 conda search mplleaflet --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/mplleaflet-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/mplleaflet-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/mplleaflet-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/mplleaflet-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/mplleaflet-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/mplleaflet-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mplleaflet/badges/version.svg)](https://anaconda.org/conda-forge/mplleaflet)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/mplleaflet/badges/downloads.svg)](https://anaconda.org/conda-forge/mplleaflet)
 
 
 Updating mplleaflet-feedstock
