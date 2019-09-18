@@ -3,11 +3,11 @@ About mplleaflet
 
 Home: https://github.com/jwass/mplleaflet
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Convert Matplotlib plots into Leaflet web maps.
+Summary: Convert Matplotlib plots into Leaflet web maps
 
 
 
