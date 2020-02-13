@@ -9,7 +9,7 @@ source:
   sha256: 049e0b91797ce5b462853395138161fed9e8dfc1f4723f482ebb0739a0bbd289
 
 build:
-  number: 3
+  number: 4
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
@@ -21,7 +21,7 @@ requirements:
     - python
     - jinja2
     - six
-    - matplotlib
+    - matplotlib-base
 
 test:
   imports:
