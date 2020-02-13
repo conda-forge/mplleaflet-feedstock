@@ -1,1 +1,2 @@
 libX11-devel
+xorg-x11-server-Xorg
