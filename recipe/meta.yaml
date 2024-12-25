@@ -5,25 +5,27 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/m/mplleaflet/mplleaflet-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/m/mplleaflet/mplleaflet-{{ version }}.tar.gz
   sha256: 049e0b91797ce5b462853395138161fed9e8dfc1f4723f482ebb0739a0bbd289
 
 build:
-  number: 4
+  number: 5
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   host:
-    - python
+    - python {{ python_min }}
     - pip
   run:
-    - python
+    - python >={{ python_min }}
     - jinja2
     - six
     - matplotlib-base
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - mplleaflet
 
